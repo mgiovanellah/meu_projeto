@@ -1,0 +1,15 @@
+<h1>Store Items</h1>
+
+<h4>Check out all our products and get yours!</h4>
+
+<ul>
+	<% @items.each do |item| %>
+		<li>
+			<%= link_to item.name, item %>	
+		</li>
+	<% end %>
+</ul>	
+
+
+
+
